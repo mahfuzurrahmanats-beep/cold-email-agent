@@ -101,3 +101,33 @@ If the task involves lead qualification, use the ICP match file.
 If the task involves campaign planning, use the campaign setup file.
 
 If the task involves writing, always follow the brand voice file.
+If the task involves cold email sequence writing, use the email writing agent file and follow the brand voice file.
+
+If the task involves subject lines, CTAs, follow-ups, breakup emails, or A/B email variants, use `email-writing-agent.md`.
+
+If the task involves writing style, tone, banned words, or voice consistency, follow `brand-voice.md`.
+### Email Writing Agent
+
+Use `email-writing-agent.md` when the task is related to:
+
+- Cold email sequence writing
+- Initial email writing
+- Follow-up writing
+- Breakup email writing
+- Subject line creation
+- CTA creation
+- A/B sequence variants
+- Segment-specific cold email copy
+- Email copy QA before campaign setup
+
+This agent must follow `brand-voice.md`.
+
+This agent runs after:
+
+- `icp-match-agent.md`
+- `b2b-cold-email-service-routing.md`
+
+And before:
+
+- `campaign-setup-agent.md`
+- `instantly-campaign-upload-agent.md`
